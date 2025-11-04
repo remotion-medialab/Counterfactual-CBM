@@ -28,6 +28,13 @@ python3 experiments/cub/save_embeddings.py
 ### Running experiments
 
 **Requirement**: Wandb already configured (see [Section 1 and 2](https://docs.wandb.ai/quickstart))
+https://docs.wandb.ai/models/quickstart
+
+```
+export WANDB_API_KEY=<your_api_key>
+pip install wandb
+wandb login
+```
 
 We set up a Jupyter notebook with a demo that trains and execute the experiments on the dSprites dataset (```./demo.ipynb```) for the Counterfactual CBM.
 
